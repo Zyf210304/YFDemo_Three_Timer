@@ -13,6 +13,9 @@
 		18188A88207DAC8E00383714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18188A87207DAC8E00383714 /* Assets.xcassets */; };
 		18188A8B207DAC8E00383714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18188A89207DAC8E00383714 /* LaunchScreen.storyboard */; };
 		18188A8E207DAC8E00383714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188A8D207DAC8E00383714 /* main.m */; };
+		18188A96207DACFC00383714 /* YFNSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188A95207DACFC00383714 /* YFNSTimer.m */; };
+		18188A99207DAF9500383714 /* YFCADisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188A98207DAF9500383714 /* YFCADisplayLink.m */; };
+		18188A9C207DB20200383714 /* YFSourceTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188A9B207DB20200383714 /* YFSourceTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		18188A8A207DAC8E00383714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18188A8C207DAC8E00383714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18188A8D207DAC8E00383714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18188A94207DACFC00383714 /* YFNSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFNSTimer.h; sourceTree = "<group>"; };
+		18188A95207DACFC00383714 /* YFNSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFNSTimer.m; sourceTree = "<group>"; };
+		18188A97207DAF9500383714 /* YFCADisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFCADisplayLink.h; sourceTree = "<group>"; };
+		18188A98207DAF9500383714 /* YFCADisplayLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFCADisplayLink.m; sourceTree = "<group>"; };
+		18188A9A207DB20200383714 /* YFSourceTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFSourceTimer.h; sourceTree = "<group>"; };
+		18188A9B207DB20200383714 /* YFSourceTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFSourceTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				18188A7F207DAC8E00383714 /* AppDelegate.m */,
 				18188A81207DAC8E00383714 /* ViewController.h */,
 				18188A82207DAC8E00383714 /* ViewController.m */,
+				18188A94207DACFC00383714 /* YFNSTimer.h */,
+				18188A95207DACFC00383714 /* YFNSTimer.m */,
+				18188A97207DAF9500383714 /* YFCADisplayLink.h */,
+				18188A98207DAF9500383714 /* YFCADisplayLink.m */,
+				18188A9A207DB20200383714 /* YFSourceTimer.h */,
+				18188A9B207DB20200383714 /* YFSourceTimer.m */,
 				18188A84207DAC8E00383714 /* Main.storyboard */,
 				18188A87207DAC8E00383714 /* Assets.xcassets */,
 				18188A89207DAC8E00383714 /* LaunchScreen.storyboard */,
@@ -97,6 +112,7 @@
 		18188A73207DAC8E00383714 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = yafei;
 				TargetAttributes = {
@@ -144,7 +160,10 @@
 			files = (
 				18188A83207DAC8E00383714 /* ViewController.m in Sources */,
 				18188A8E207DAC8E00383714 /* main.m in Sources */,
+				18188A99207DAF9500383714 /* YFCADisplayLink.m in Sources */,
 				18188A80207DAC8E00383714 /* AppDelegate.m in Sources */,
+				18188A96207DACFC00383714 /* YFNSTimer.m in Sources */,
+				18188A9C207DB20200383714 /* YFSourceTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
